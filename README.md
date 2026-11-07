@@ -58,3 +58,4 @@ WHERE type = 'report' GROUP BY file_ext ORDER BY n DESC;
 ```
 - **Tip:** submissions are rate-limited to 20 requests per IP per hour.
 - **Tip:** only requests from `https://pureclear.dusrel.com` and `https://pureclear.pages.dev` are accepted — other origins are rejected.
+- **Tip:** the feedback message field accepts at most 2000 characters.
