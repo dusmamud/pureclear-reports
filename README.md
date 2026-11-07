@@ -56,3 +56,4 @@ GROUP BY reason ORDER BY n DESC;
 SELECT file_ext, COUNT(*) AS n FROM reports
 WHERE type = 'report' GROUP BY file_ext ORDER BY n DESC;
 ```
+- **Tip:** submissions are rate-limited to 20 requests per IP per hour.
